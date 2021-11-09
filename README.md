@@ -1,4 +1,4 @@
-# vue-tailwind-dark
+# vue-columbus
 
 ## Project setup
 ```
