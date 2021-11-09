@@ -1,9 +1,9 @@
 <template>
   <div class="home h-screen flex flex-col">
     <div class="mt-20 mx-auto w-full h-full flex flex-row">
-      <div class="bg-transparent m-8 mr-4 w-2/5 h-full flex flex-col p-8">
+      <div class="bg-transparent m-8 mr-4 w-2/5 h-full flex flex-col p-8 pb-0 pr-0">
         
-        <div class="bg-gray-100 mb-4 flex flex-col h-4/6 w-full h-3/6">
+        <div class="bg-gray-100 mb-4 flex flex-col w-full h-3/6">
         <table class="text-left m-8" > 
           <tr class="text-xl uppercase">
             <th>cantidad</th>
@@ -56,16 +56,30 @@
         </div>
       </div>
 
-      <div class="bg-red-500 my-4 h-1/6">
-
+      <div class=" my-2 h-1/6 flex space-x-4">
+        <div class="w-1/2 h-full bg-gray-200"> </div>
+        <div class="w-1/2 h-full bg-gray-200"> </div>
       </div>
       
-      <div class="bg-red-600 mt-4 mb-8 h-1/6">
+      <div class="bg-gray-200 mt-4 mb-8 h-1/6">
 
       </div>
       </div>
-      <div class="bg-blue-300 m-8 ml-4 w-3/5 h-full flex-col">
+      <div class="bg-transparent mt-8 ml-4 w-3/5 mr-20 h-full flex-col p-8 pl-0">
+
+        <div class=" flex h-3/6 mb-2 pb-4">
+          <div class="bg-gray-200  mb-6 h-full w-full"> arriba</div>
+        </div>
+
+        <div class="bg-green-900 h-3/6 w-full flex">
+          <!--div class="bg-gray-300 flex flex-col w-3/4 ">
+          </div>
+          <div class="bg-gray-900 flex flex-col w-1/4">
+          </div-->
+        </div>
+
       </div>
+
     </div>
   </div>
 </template>
