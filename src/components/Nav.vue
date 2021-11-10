@@ -1,5 +1,6 @@
 <template>
       <nav class="fixed flex h-20 w-full font-bold overflow-hidden bg-green-700 dark:bg-gray-800 transition-all duration-50 ease-in-out">
+      <h1 class="text-xl w-full my-auto text-gray-50">Colombus Bakery</h1>
       <div class="text-white flex w-full flex-row-reverse justify-evenly md:space-x-16  md:justify-start my-auto">
         <ThemeToggler/>
         <!--router-link class="hover:text-green-500 dark:hover:text-opacity-75" to="/about">About</router-link-->
