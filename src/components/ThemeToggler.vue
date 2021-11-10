@@ -4,8 +4,8 @@
      class="dark:text-red-400 text-cyan-200">
       Theme Toggle
     </button-->
-    <div class="flex md:mx-16">
-        <span v-if="temita == 'light'" class="material-icons-outlined text-gray-900 dark:text-green-400 " @click="toggleTheme1">
+    <div class="flex md:mx-16 my-auto">
+        <span v-if="temita == 'light'" class="material-icons-outlined text-gray-50 dark:text-green-400 " @click="toggleTheme1">
             dark_mode
         </span>
         <span v-else class="material-icons-outlined text-gray-900 dark:text-green-400 " @click="toggleTheme1">
